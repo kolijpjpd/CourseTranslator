@@ -68,4 +68,3 @@ Join our community for updates and support:
 - **Developer**: Designed by **RED BIT**
 
 ---
-© 2026 SRT Suite | Advanced Evasion & Automation Tactics.
