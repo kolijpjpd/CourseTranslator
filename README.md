@@ -1,4 +1,4 @@
-# SRT Suite - Windows Edition v1.0 Beta By RedBit 🚀
+# SRT Suite — Windows Enterprise Edition v1.0 🚀
 
 **SRT Suite** is a high-performance, AI-powered toolkit designed for cybersecurity professionals, educators, and content creators. It provides an all-in-one solution for generating high-accuracy subtitles (SRT/VTT) from video files and translating them using state-of-the-art LLMs.
 
@@ -42,12 +42,18 @@ pip install pyinstaller faster-whisper ctranslate2 cryptography onnxruntime tkin
 ### 3. Build the Executable
 - Extract the ZIP package to a folder on your Desktop.
 - Double-click the [build_windows.bat](file:///home/kali/%D8%AA%D8%B1%D8%AC%D9%85%D8%A9/backup/build_windows.bat) file.
-- A terminal will open and begin the build process. This may take a few minutes as it compiles all AI models and GUI resources.
-- Once finished, you will find your standalone app in the **`dist`** folder as `SRTSuite.exe`.
+- A terminal will open and begin the build process. Once finished, find your standalone app in the **`dist`** folder.
 
 ### 4. Setup & Launch
 - Launch `dist\SRTSuite.exe`.
-- Click the **"Install Requirements"** button (Green button top right) to finalize the `ffmpeg` configuration.
+- Click the **"Install Requirements"** (Green button) to finalize the setup.
+
+### 5. API Requirements
+- **Transcription (MP4 to SRT)**: **LOCAL (NO API REQUIRED)**. This runs entirely on your hardware for 100% privacy and zero cost.
+- **Translation**: **API REQUIRED**.
+  - Uses Zhipu AI (GLM-4) for professional context-aware translations.
+  - Get your key from [Zhipu AI (BigModel)](https://open.bigmodel.cn/usercenter/apikeys).
+  - Paste it in the **Settings** tab and click **Save**.
 
 ---
 
@@ -68,3 +74,4 @@ Join our community for updates and support:
 - **Developer**: Designed by **RED BIT**
 
 ---
+© 2026 SRT Suite | Advanced Evasion & Automation Tactics.
