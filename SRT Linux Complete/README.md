@@ -1,16 +1,8 @@
 # 🎬 SRT Suite — MP4 to SRT & Professional Translator (Linux Release)
 
-![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)
-![Security](https://img.shields.io/badge/Protection-Obfuscated-red.svg)
 
 **SRT Suite** is a high-performance tool designed for video transcription and automated subtitle translation using state-of-the- art AI models. This build is **obfuscated** to protect intellectual property and ensure runtime integrity.
 
-## 🛡️ Security & Integrity (MITRE ATT&CK Context)
-This release employs advanced code obfuscation techniques to prevent unauthorized reverse engineering and tampering.
-- **Technique:** [T1027 - Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027/)
-- **Build Engine:** Pyarmor (Binary-level obfuscation)
-- **Protection Scope:** Core logic, API integration, and License management systems are encrypted and executed in a dedicated runtime environment.
 
 ## 🚀 Features
 - **High-Speed Transcription:** Powered by `faster-whisper`.
