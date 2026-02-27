@@ -1,0 +1,10 @@
+faster-whisper
+ctranslate2
+av
+huggingface_hub
+tokenizers
+numpy
+tqdm
+onnxruntime
+requests
+cryptography
