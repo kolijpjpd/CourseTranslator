@@ -1,4 +1,4 @@
-# SRT Suite — Edition v1.0 Red Bit 🚀
+# SRT Suite — Edition v1.1 Red Bit 🚀
 
 **SRT Suite** is a high-performance, AI-powered toolkit designed for cybersecurity professionals, educators, and content creators. It provides an all-in-one solution for generating high-accuracy subtitles (SRT/VTT) from video files and translating them using state-of-the-art LLMs.
 
